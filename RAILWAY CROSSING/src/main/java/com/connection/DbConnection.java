@@ -13,7 +13,7 @@ public class DbConnection {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			conObj = DriverManager.getConnection("jdbc:mysql://localhost:3306/traincrossings","root", "223004067@Sastra");
 		} catch (Exception e) {
-			System.out.println("Unable to connect to database"+e);
+			System.out.println("Unable to connect to database...."+e);
 		} 
 		return conObj;
 	}
